@@ -11,7 +11,7 @@ class HomeController extends AbstractController
 {
     /**
      * @Route("/", name="app_home")
-     * @Cache(maxage="3600", public=true, smaxage="3600")
+     * @Cache(maxage="0", public=true, smaxage="3600")
      */
     public function index(): Response
     {
