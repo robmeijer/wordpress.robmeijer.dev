@@ -14,7 +14,7 @@ class HomeController extends AbstractController
     public function index(): Response
     {
         $data = [
-            'message' => 'If you can read this, then it works!';
+            'message' => 'If you can read this, then it works!',
         ];
 
         return $this->json($data);
